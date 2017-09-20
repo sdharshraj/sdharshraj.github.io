@@ -2,11 +2,11 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Harsh Raj
+tagline:             Discuss technology
+url:                 https://sdharshraj.github.io/
 paginate:            1
-baseurl:             ""
+baseurl:             https://sdharshraj.github.io/
 
 # Assets
 #
@@ -17,14 +17,14 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Harsh Raj
+  url:               https://twitter.com/followharshraj
+  email:             sdharshraj@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/sdharshraj
 
 # Gems
 gems:
