@@ -7,6 +7,3 @@ title: Sample Blog
   I am just trying different kind of styling here.
 </div>
 
-*I have given one astrick
-* again one astrick but with a blank space
-
