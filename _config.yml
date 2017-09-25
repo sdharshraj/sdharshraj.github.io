@@ -3,8 +3,8 @@ permalink:           pretty
 
 # Setup
 title:               Harsh Raj
-tagline:             Discuss technology
-url:                 https://sdharshraj.github.io/
+tagline:             Discussing technology
+url:                 https://github.com/sdharshraj/sdharshraj.github.io
 paginate:            1
 baseurl:             https://sdharshraj.github.io/
 
@@ -24,7 +24,7 @@ author:
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/sdharshraj
+  repo:              https://github.com/sdharshraj/
 
 # Gems
 gems:
