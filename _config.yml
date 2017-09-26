@@ -1,37 +1,42 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
 # Permalinks
-permalink:           pretty
+permalink:        pretty
 
 # Setup
-title:               Harsh Raj
-tagline:             Discussing technology
-url:                 https://github.com/sdharshraj/sdharshraj.github.io
-paginate:            1
-baseurl:             https://sdharshraj.github.io/
+title:            Disctech
+tagline:          'Discussing technology'
+description:      'A simple blog regarding ASP.NET, Azure, Angular and other random stuffs'
+url:              https://github.com/sdharshraj
+baseurl:          /
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
 author:
-  name:              Harsh Raj
-  url:               https://twitter.com/followharshraj
-  email:             sdharshraj@gmail.com
+  name:           'Harsh Raj'
+  url:            https://github.com/sdharshraj
+
+paginate:         5
 
 # Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/sdharshraj/
+version:          1.0.0
 
-# Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
-#page list
-  pages_list:       
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/atom.xml'
+github:
+  repo:           https://github.com/sdharshraj
+
+gems: [jekyll-paginate, jekyll-gist]
+
+social:
+  twitter:        followharshraj
+  
+permalink:        /:year/:month/:title/
+
+exclude: ["_app",
+          "Gemfile",
+          "Gemfile.lock",
+          "gulpfile.js",
+          "node_modules",
+          "package.json"]
+
+kramdown:
+  auto_ids: true
