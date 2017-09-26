@@ -10,10 +10,6 @@
 
     {% for page in site.pages_list %} &nbsp;&nbsp;&nbsp;
     <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small> {% endfor %}
-    <form action="{{ site.baseurl }}/search/" method="get">
-      <input type="text" name="q" id="search-input" placeholder="Search" autofocus>
-      <input type="submit" value="Search" style="display: none;">
-    </form>
   </h3>
 
   <div class="container content">
