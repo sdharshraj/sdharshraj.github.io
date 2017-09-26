@@ -2,7 +2,6 @@
 layout: post
 title: Sample Blog
 comments: True
-social: True
 ---
 
 <div class="message">
