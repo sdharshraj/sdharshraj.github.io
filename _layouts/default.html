@@ -11,7 +11,7 @@
     {% for page in site.pages_list %} &nbsp;&nbsp;&nbsp;
     <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small> {% endfor %}
   </h3>
-  <form action="/search.html" method="get">
+  <form action="/search" method="get">
 		<label for="search_box">Search</label>
 		<input type="text" id="search_box" name="query">
 		<input type="submit" value="search">
