@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sample Blog
+comments: True
 ---
 
 <div class="message">
