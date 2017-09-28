@@ -1,2 +1,4 @@
-_site/
-
+_config.yml
+_site/*
+*Thumbs.db
+Gemfile.lock
