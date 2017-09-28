@@ -8,6 +8,7 @@ markdown: kramdown
 disqus: sdharshraj
 google_analytics: dbyll
 title: CLog
+logo: assets/ico/CLog.png
 
 defaults:
   -
