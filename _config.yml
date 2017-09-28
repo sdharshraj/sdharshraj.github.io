@@ -7,14 +7,14 @@ highlighter: rouge
 markdown: kramdown
 disqus: sdharshraj
 google_analytics: dbyll
-title: DiscTech
+title: CLog
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: CLog
 
 description: Stylish Jekyll Theme
 author:
