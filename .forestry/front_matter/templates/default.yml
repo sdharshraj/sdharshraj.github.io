@@ -6,4 +6,5 @@ fields:
   label: Title
   type: text
   hidden: false
-  default: CLog
+  default: Tech Talk
+- type: text
