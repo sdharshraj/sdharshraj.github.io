@@ -35,7 +35,7 @@ So now when you get the ActivityTypes.Message you simply send it to some dialog 
                     await Conversation.SendAsync(activity, () => new ProactiveDialog());
                 }
 
-You need to maintain Message class which keeps RelatesTo and Text.
+You need to maintain Message class which keeps ConversationReference  and Text.
 
      public class Message
         {
@@ -155,11 +155,11 @@ In order to send a proactive message to an skype user you can simply add the bel
     {
       "relatesTo": {
         "user": {
-          "id": "29:1Hdz_PwYyxvU2H5Gh0AeWGh5CU-pCwRknjEDzxtGevxI",
+          "id": "29:1Hdz_Pw*******Gh0AeWGh5CU-pCwRknjEDzxtGevxI",
           "name": "Harsh Raj"
         },
         "bot": {
-          "id": "28:5dabf6a6-6eb2-4ef4-9a38-22625ff08a38",
+          "id": "28:************,, 2-4ef4-9a38-22625ff08a38",
           "name": "SurveyBot"
         },
         "conversation": {
