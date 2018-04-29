@@ -1,4 +1,6 @@
 ---
+pages:
+- _posts/sending-proactive-messaging-in-chatbot-using-microsoft-bot-framework.md
 hide_body: false
 is_partial: false
 fields:
