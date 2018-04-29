@@ -7,15 +7,15 @@ highlighter: rouge
 markdown: kramdown
 disqus: sdharshraj
 google_analytics: dbyll
-title: CLog
-logo: assets/ico/CLog.png
+title: Tech Talk
+logo: 
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: CLog
+      title: Tech Talk
 
 description: Stylish Jekyll Theme
 author:
@@ -24,8 +24,8 @@ author:
   github: sdharshraj
   twitter: followharshraj
   pinterest: 
-  linkedin: 
-  bio: I am a software developer, love to learn about new technology.
+  linkedin: https://www.linkedin.com/in/sdharshraj/
+  bio: I am a software developer, love to learn and discuss about new technology, practices and solution.
   email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
