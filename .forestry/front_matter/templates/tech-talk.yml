@@ -7,4 +7,3 @@ fields:
   type: text
   hidden: false
   default: Tech Talk
-- type: text
