@@ -9,9 +9,6 @@ fields:
   type: text
   hidden: false
   default: Tech Talk
-- type: tag_list
-  default:
-  - tags
 - type: text
   name: comments
   label: comments
@@ -20,3 +17,9 @@ fields:
   default: description
   label: description
   name: description
+- type: text
+  name: tags
+  label: Tag
+  config:
+    required: true
+  hidden: true
