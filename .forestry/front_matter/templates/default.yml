@@ -22,4 +22,3 @@ fields:
   label: Tag
   config:
     required: true
-  hidden: true
