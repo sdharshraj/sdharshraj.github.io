@@ -7,6 +7,8 @@ undefined:
 - proactive messaging
 - microsoft bot framework
 - proactive messaging using azure function and queue
+description: A tutorial on how to send proactive messaging in chatbot using microsoft
+  bot framework, azure function, azure storage and directline.
 ---
 **Proactive messaging** can be useful in many scenario for example
 
