@@ -1,5 +1,6 @@
 ---
 pages:
+- _posts/try.md
 - _posts/2018-04-29-sending-proactive-messaging-in-chatbot-using-microsoft-bot-framework.md
 hide_body: false
 is_partial: false
@@ -9,3 +10,10 @@ fields:
   type: text
   hidden: false
   default: Tech Talk
+- type: tag_list
+  default:
+  - tags
+- type: text
+  name: comments
+  label: comments
+  default: 'true'
