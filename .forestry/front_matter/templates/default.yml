@@ -16,3 +16,7 @@ fields:
   name: comments
   label: comments
   default: 'true'
+- type: textarea
+  default: description
+  label: description
+  name: description
