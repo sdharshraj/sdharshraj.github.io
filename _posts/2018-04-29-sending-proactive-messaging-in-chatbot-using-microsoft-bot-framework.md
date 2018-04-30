@@ -2,11 +2,7 @@
 title: Sending proactive messaging in Chatbot using Microsoft bot framework
 date: 2018-04-29 14:15:26 +0530
 comments: 'true'
-undefined:
-- sending proactive messaging in chat bot
-- proactive messaging
-- microsoft bot framework
-- proactive messaging using azure function and queue
+tags: [sending proactive messaging in chat bot, proactive messaging, microsoft bot framework, proactive messaging using azure function and queue]
 description: A tutorial on how to send proactive messaging in chatbot using microsoft
   bot framework, azure function, azure storage and directline.
 ---
