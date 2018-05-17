@@ -1,5 +1,6 @@
 ---
 pages:
+- _posts/proactive-messaging-in-skype-for-business.md
 - _posts/2018-04-29-sending-proactive-messaging-in-chatbot-using-microsoft-bot-framework.md
 hide_body: false
 is_partial: false
