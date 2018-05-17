@@ -5,4 +5,6 @@ description: description
 date: 2018-05-17 19:04:22 +0530
 tags: skype for business
 ---
-In my last [post](https://sdharshraj.github.io/2018/04/29/sending-proactive-messaging-in-chatbot-using-microsoft-bot-framework.html "post") I have already shared an approach on how to send proactive message in chat bot.
+In my last [post](https://sdharshraj.github.io/2018/04/29/sending-proactive-messaging-in-chatbot-using-microsoft-bot-framework.html "post") I have already shared an approach on how to send proactive message in chat bot. 
+
+So in this post i will just tell you what all things you require to send the proactive messaging in SKype for business.
