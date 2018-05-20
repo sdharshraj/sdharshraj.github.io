@@ -5,13 +5,7 @@ description: This post will help you to create new QnAMaker service by registeri
   a cognitive service from azure and then creating a new knowledge base in qna maker
   using the registered cognitive service.
 date: 2018-05-20 12:50:00 +0530
-tags: 
--QnAMaker, 
--new QnAMaker, 
--QnAMaker with bot framework
--404 error in qnamaker
--Qnamaer with luis none intent
-
+tags: 'QnAMaker, new QnAMaker, QnAMaker with bot framework '
 ---
 In This post i will help you to create new QnAMaker service by registering a cognitive service from azure and then creating a new knowledge base in qna maker using the registered cognitive service. And also if you are migrating from old QnAMaker (which you are using as a dialog in microsoft bot framework) to new QnAMaker you need to do certain changes in you code to make it work otherwise you may find 400 error or 404 error etc.
 
