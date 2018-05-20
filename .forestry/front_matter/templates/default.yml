@@ -21,6 +21,6 @@ fields:
   config:
     required: true
 pages:
-- _posts/migrating-to-or-creating-new-qnamaker-with-microsoft-bot-framework.md
+- _posts/2018-05-20-migrating-to-or-creating-new-qnamaker-with-microsoft-bot-framework.md
 - _posts/2018-05-17-proactive-messaging-in-skype-for-business.md
 - _posts/2018-04-29-sending-proactive-messaging-in-chatbot-using-microsoft-bot-framework.md
