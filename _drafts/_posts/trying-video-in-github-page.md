@@ -9,6 +9,10 @@ I just want to check whether we can use youtube video on github pages or not.
 
 Lets see this
 
-    <video poster="https://sec.ch9.ms/sessions/build/2014/KEY001-LG.jpg" width="618" height="347" controls preload> 
-        <source src="https://www.youtube.com/watch?v=rd0Rd8w3FZ0" media="only screen and (min-device-width: 568px)"></source> 
-    </video>
+<video poster="https://sec.ch9.ms/sessions/build/2014/KEY001-LG.jpg" width="618" height="347" controls preload> 
+    <source src="https://www.youtube.com/watch?v=rd0Rd8w3FZ0" media="only screen and (min-device-width: 568px)"></source> 
+</video>
+
+  <video poster="https://sec.ch9.ms/sessions/build/2014/KEY001-LG.jpg" width="618" height="347" controls preload> 
+    <source src="https://www.youtube.com/watch?v=rd0Rd8w3FZ0" media="only screen and (min-device-width: 568px)"></source> 
+</video>
