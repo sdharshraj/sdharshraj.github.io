@@ -1,6 +1,6 @@
 ---
+label: default
 hide_body: false
-is_partial: false
 fields:
 - name: title
   label: Title
@@ -19,7 +19,5 @@ fields:
   name: tags
   label: tags
 pages:
-- _posts/2018-05-24-trying-video-in-github-page.md
-- _posts/2018-05-20-migrating-to-or-creating-new-qnamaker-with-microsoft-bot-framework.md
-- _posts/2018-05-17-proactive-messaging-in-skype-for-business.md
 - _posts/2018-04-29-sending-proactive-messaging-in-chatbot-using-microsoft-bot-framework.md
+- _posts/2018-05-20-migrating-to-or-creating-new-qnamaker-with-microsoft-bot-framework.md
