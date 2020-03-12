@@ -1,9 +1,10 @@
 ---
 title: Trying video in Github page
-comments: 'true'
+comments: true
 description: description
 date: 2018-05-24T09:34:43.000+00:00
-tags: []
+tags:
+- youtube
 
 ---
 I just want to check whether we can use youtube video on github pages or not.
