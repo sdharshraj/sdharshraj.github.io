@@ -2,8 +2,6 @@
 title: Configuring CI/CD pipeline in Asp .Net with Jenkins
 
 ---
-# **AspDotNet CI/CD with Jenkins**
-
 Here we will learn how to configure asp .net web application with Jenkins for continuous integration and continuous deployment.
 
 In the first part we will integrate Jenkins with Git/GitLabs to pull out the code each time a change is pushed, will build it and will send the build status via email notifications.
@@ -84,9 +82,9 @@ Now go back to Configure Project and click on Build Trigger
 
 ![](/uploads/2020/04/22/bb2.png)
 
-*  Next is to add the build step for that click on Add build step and select Build a visual studio project or solution using MSBUILD.
+* Next is to add the build step for that click on Add build step and select Build a visual studio project or solution using MSBUILD.
 
-  MSBuild Version: Select **MSBuild_Build** if you just want to build the solution
+MSBuild Version: Select **MSBuild_Build** if you just want to build the solution
 
 ![](/uploads/2020/04/22/bb3.png)
 
@@ -100,17 +98,17 @@ Or select **MSBuild_BuildAndPublish** if you want to build and then to create th
 
 ![](/uploads/2020/04/22/b1-1.png)
 
-*  In the Build and Publish step above pass the following as Command Line arguments
+* In the Build and Publish step above pass the following as Command Line arguments
 
-  /p:PublishProfile="${WORKSPACE}\\<path to publish profile file> \\name.pubxml"
+/p:PublishProfile="${WORKSPACE}\\<path to publish profile file> \\name.pubxml"
 
-  /p:Password=”Password from publish file”
+/p:Password=”Password from publish file”
 
-  \--PublishProfile path PublishProfile = "${WORKSPACE}\\+ Path of project Properties\\PublishProfiles\\profilename -Web Deploy.pubxml"
+\--PublishProfile path PublishProfile = "${WORKSPACE}\\+ Path of project Properties\\PublishProfiles\\profilename -Web Deploy.pubxml"
 
-  \--Password can get from downloaded publish profile
+\--Password can get from downloaded publish profile
 
-  (Open downloaded publish profile using your code editor there you can find the password)
+(Open downloaded publish profile using your code editor there you can find the password)
 
 7\. Now we have code which is built successfully and then we created the publish files and we have settings (Azure) where we want to deploy the publish files, but how do we transfer files from Jenkins to Azure, that is where FTP comes in
 
