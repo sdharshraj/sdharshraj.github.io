@@ -17,7 +17,7 @@ In the first part we will integrate Jenkins with Git/GitLabs to pull out the cod
 
 In second part, on successful build we will publish the results and deploy them to Microsoft Azure using FTP (File Transfer Protocol).
 
-1\. Go to Jenkins Home Page, login to Jenkins if you are not logged in and on the left hand side menu click on New Item, give relevant name and select Freestyle project and then click OK.
+1\. Go to Jenkins Home Page, login to Jenkins if you are not logged in and on the left hand side menu click on New Item, give relevant name and select Freestyle project and then click Ok.
 
 ![](/uploads/2020/04/22/b1.png)
 
