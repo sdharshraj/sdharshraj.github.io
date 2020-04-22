@@ -109,11 +109,11 @@ Or select **MSBuild_BuildAndPublish** if you want to build and then to create th
 
 * In the Build and Publish step above pass the following as Command Line arguments
 
-/p:PublishProfile="${WORKSPACE}\\<path to publish profile file> \\name.pubxml"
+    /p:PublishProfile="${WORKSPACE}\<path to publish profile file> \name.pubxml"
 
-/p:Password=”Password from publish file”
+    /p:Password=”Password from publish file”
 
-\--PublishProfile path PublishProfile = "${WORKSPACE}\\+ Path of project Properties\\PublishProfiles\\profilename -Web Deploy.pubxml"
+    --PublishProfile path PublishProfile = "${WORKSPACE}\+ Path of project Properties\PublishProfiles\profilename -Web Deploy.pubxml"
 
 \--Password can get from downloaded publish profile
 
