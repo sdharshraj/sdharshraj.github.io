@@ -21,3 +21,4 @@ fields:
 pages:
 - _posts/2018-04-29-sending-proactive-messaging-in-chatbot-using-microsoft-bot-framework.md
 - _posts/2018-05-20-migrating-to-or-creating-new-qnamaker-with-microsoft-bot-framework.md
+- _posts/2020-04-22-configuring-ci-cd-pipeline-in-asp-net-with-jenkins.md
