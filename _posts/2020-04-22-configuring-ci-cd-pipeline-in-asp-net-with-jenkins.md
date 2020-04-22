@@ -1,8 +1,14 @@
 ---
 title: Configuring CI/CD pipeline in Asp .Net with Jenkins
 comments: 'true'
-description: description
-tags: []
+description: Step by step guide to configure asp .net web application with Jenkins
+  for continuous integration and continuous deployment.
+tags:
+- asp .net
+- jenkins
+- asp dotnet with jenkins
+- configure jenkins
+- jenkins with dotnet
 
 ---
 Here we will learn how to configure asp .net web application with Jenkins for continuous integration and continuous deployment.
