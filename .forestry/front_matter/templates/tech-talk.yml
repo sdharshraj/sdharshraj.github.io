@@ -7,3 +7,5 @@ fields:
   type: text
   hidden: false
   default: Tech Talk
+pages:
+- _posts/configuring-ci-cd-pipeline-in-asp-net-with-jenkins.md
